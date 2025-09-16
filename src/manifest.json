@@ -5,6 +5,15 @@
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
+
+    /* H5特有相关 */
+    "h5": {
+        "router": {
+            "mode": "hash",
+            "base": "/uni-app-h5-test/"
+        },
+        "title": "Gemini 金融助手" // 这里可以自定义浏览器标签页的标题
+    },
     /* 5+App特有相关 */
     "app-plus" : {
         "usingComponents" : true,
