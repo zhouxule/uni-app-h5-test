@@ -5,4 +5,6 @@ export default defineConfig({
   plugins: [
     uni(),
   ],
+  // gh-pages分支
+  base: '/uni-app-h5-test/'
 })
